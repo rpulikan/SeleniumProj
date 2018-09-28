@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [workday22]">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="com.wdhybridFW.Utilities.Reporting"/>
+  </listeners>
+  <test name="workDay TestCases(failed)">
+    <classes>
+      <class name="com.wdhybridFW.TestCases.TC_LoginTest_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.wdhybridFW.TestCases.TC_LoginTest_001 -->
+      <class name="com.wdhybridFW.TestCases.TC_NewHire_002">
+        <methods>
+          <include name="navtocreateNH"/>
+        </methods>
+      </class> <!-- com.wdhybridFW.TestCases.TC_NewHire_002 -->
+    </classes>
+  </test> <!-- workDay TestCases(failed) -->
+</suite> <!-- Failed suite [workday22] -->

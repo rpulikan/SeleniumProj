@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="workday22">	
+	
+<listeners>
+	<listener class-name = "com.wdhybridFW.Utilities.Reporting"/>
+</listeners>
+	
+		<parameter name="browser" value="firefox"/>
+		<test name = "workDay TestCases">
+			<classes>
+				<class name = "com.wdhybridFW.TestCases.TC_LoginTest_001"/>	
+				<class name = "com.wdhybridFW.TestCases.TC_NewHire_002"/>
+			</classes>
+		</test>	
+
+</suite>
